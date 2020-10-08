@@ -1,7 +1,7 @@
 LaunchDarkly Client-Side SDK for Xamarin
 ===========================
 
-[![Build status](https://ci.appveyor.com/api/projects/status/5m35u4e23c4neybn/branch/master?svg=true)](https://ci.appveyor.com/project/smokeballdev/launchdarkly-xamarin-client-sdk)
+[![Build status](https://ci.appveyor.com/api/projects/status/a8mya4n61n8g8hoy?svg=true)](https://ci.appveyor.com/project/smokeballdev/launchdarkly-xamarin-client-sdk)
 
 
 LaunchDarkly overview
