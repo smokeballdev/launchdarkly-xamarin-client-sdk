@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks></TargetFrameworks>
-    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' and '$(LD_TARGET_FRAMEWORKS)' == '' ">netstandard1.6;netstandard2.0;net45;Xamarin.iOS10;MonoAndroid10.0;</TargetFrameworks>
-    <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' and '$(LD_TARGET_FRAMEWORKS)' == '' ">netstandard1.6;netstandard2.0;Xamarin.iOS10;MonoAndroid10.0;</TargetFrameworks>
+    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' and '$(LD_TARGET_FRAMEWORKS)' == '' ">netstandard2.0;Xamarin.iOS10;MonoAndroid10.0;</TargetFrameworks>
+    <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' and '$(LD_TARGET_FRAMEWORKS)' == '' ">netstandard2.0;Xamarin.iOS10;MonoAndroid10.0;</TargetFrameworks>
     <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' and '$(LD_TARGET_FRAMEWORKS)' != '' ">$(LD_TARGET_FRAMEWORKS)</TargetFrameworks>
     <Version>1.2.0</Version>
     <OutputType>Library</OutputType>
@@ -45,9 +45,9 @@
   </ItemGroup>
 
   <!-- dependencies for .NET Standard 1.x -->
-  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard1.')) ">
+  <!--<ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard1.')) ">
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <!-- dependencies and source files for Android (all versions) -->
   <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
