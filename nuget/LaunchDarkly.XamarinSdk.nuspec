@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata minClientVersion="2.8.1">
+        <id>Smokeball.LaunchDarkly.XamarinSdk</id>
+        <title>LaunchDarkly Xamarin SDK</title>
+        <version>$version$</version>
+        <authors>launchdarkly, smokeball</authors>
+        <owners>launchdarkly, smokeball</owners>
+        <licenseUrl>https://github.com/smokeballdev/xamarin-client-sdk/blob/master/License.txt</licenseUrl>
+        <projectUrl>https://github.com/smokeballdev/xamarin-client-sdk/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>LaunchDarkly Xamarin SDK</description>
+        <summary>LaunchDarkly Xamarin SDK</summary>
+        <tags>ios, android, windows, xamarin.ios, xamarin.android, xamarin</tags>
+        <releaseNotes>https://github.com/smokeballdev/xamarin-client-sdk/blob/master/CHANGELOG.md</releaseNotes>
+    </metadata>
+    <files>
+        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\netstandard1.6\LaunchDarkly.*" target="lib\netstandard1.6" />
+        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\netstandard2.0\LaunchDarkly.*" target="lib\netstandard2.0" />
+        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\monoandroid10.0\LaunchDarkly.*" target="lib\MonoAndroid10" />
+        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\LaunchDarkly.*" target="lib\Xamarin.iOS10" />
+    </files>
+</package>
