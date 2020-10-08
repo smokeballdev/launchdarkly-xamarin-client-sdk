@@ -15,9 +15,8 @@
         <releaseNotes>https://github.com/smokeballdev/xamarin-client-sdk/blob/master/CHANGELOG.md</releaseNotes>
     </metadata>
     <files>
-        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\netstandard1.6\LaunchDarkly.*" target="lib\netstandard1.6" />
         <file src="src\LaunchDarkly.XamarinSdk\bin\Release\netstandard2.0\LaunchDarkly.*" target="lib\netstandard2.0" />
         <file src="src\LaunchDarkly.XamarinSdk\bin\Release\monoandroid10.0\LaunchDarkly.*" target="lib\MonoAndroid10" />
-        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\LaunchDarkly.*" target="lib\Xamarin.iOS10" />
+        <file src="src\LaunchDarkly.XamarinSdk\bin\Release\xamarin.ios10\LaunchDarkly.*" target="lib\Xamarin.iOS10" />
     </files>
 </package>
